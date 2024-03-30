@@ -1,0 +1,10 @@
+
+Movie_name: rr dd
+ director_Name: dd tt
+ Release_Year: 34
+ Budget: 3444
+
+Movie_name: rrr ttttttt
+ director_Name: rrrrrr
+ Release_Year: 4
+ Budget: 5666
