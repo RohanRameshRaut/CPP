@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
         {
             if (num[i] % 2 == 0)
             {
-                fout << num[i] << ""; // writing an even number in file.
+                fout << num[i] <<"\n"; // writing an even number in file.
             }
         }
         fout.close();
