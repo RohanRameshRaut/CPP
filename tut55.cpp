@@ -5,7 +5,11 @@ class BaseClass
 {
 public:
     int var_base;
-    void display()
+    void getDatax(int i)
+    {
+        var_base = i;
+    }
+    void displayx()
     {
         cout << "Base class variable " << var_base << endl;
     }
@@ -15,7 +19,11 @@ class DerivedClass : public BaseClass
 {
 public:
     int var_derived;
-    void display()
+    void getDatay(int i)
+    {
+        var_derived = i;
+    }
+    void displayy()
     {
         cout << "Base class variable " << var_base << endl;
         cout << "Derived class variable " << var_derived << endl;
@@ -37,8 +45,8 @@ int main()
     base_class_pointer = &obj_derived; // Pointing base class pointer to derived class.
 
     // obj_base.var_base = 34; // direct initialization.
-    base_class_pointer->var_base = 34; // When you want to access the member variables or functions through a pointer, you need to use the arrow operator ->, not the dot operator.
-    base_class_pointer->display();
+    base_class_pointer->getDatax(34); // When you want to access the member variables or functions through a pointer, you need to use the arrow operator ->, not the dot operator.
+    base_class_pointer->displayx();
 
     return 0;
 }
