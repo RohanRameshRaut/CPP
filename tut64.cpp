@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-template <class T> // T is a variable which stores the dataType given by user.
+template <class T> // T is a template parameter just like (variable) which stores the dataType given by user.
 class Vector
 {
 public:
