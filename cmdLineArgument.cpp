@@ -11,7 +11,7 @@ int main(int argc, char* argv[])
         exit(1);
     }
     ofstream fout1;
-    fout1.open(argv[1]);
+    fout1.open(argv[1]); // Array starts from 0--> argv[0]--> path of the current (programm)file(by default).
     if(fout1.fail()){
         cout<<"Unable to open a file"<<argv[1]<<endl;
         exit(1);
