@@ -11,7 +11,7 @@ double median(int *arr, int size)
     }
     else
     {
-        return arr[size / 2];
+        return arr[size / 2]; // if 5--> 5/2=2, position will be 3rd(array starts from 0,1,2).
     }
 }
 
