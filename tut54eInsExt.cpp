@@ -2,7 +2,7 @@
 using namespace std;
 
 // << insertion --> It is derived class of "ostream", ostream is a base class of insertion.
-// << extraction --> It is derived class of "istream", istream is a base class of extraction.
+// >> extraction --> It is derived class of "istream", istream is a base class of extraction.
 
 class s1
 {
@@ -37,6 +37,9 @@ int main()
     s1 obj;
     cout << obj; // cout and obj are the parameters passed explicitly to the function, cout is compolsory to pass as it is defined in c++ libraries.
     cin >> obj;  // cin is an object of istream class and obj is an object of s1 class.
+    // OR
+    // operator << (cout, obj);
+    // operator >> (cin, obj);
     obj.display();
 
     return 0;
