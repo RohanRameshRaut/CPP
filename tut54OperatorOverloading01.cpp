@@ -39,7 +39,9 @@ int main()
     obj1.getData(10, 20, 30);
     cout << "original" << endl;
     obj1.display();
-    -obj1;
+    // -obj1;
+    // OR
+    // operator -(obj1);
     cout << "Negative" << endl;
     obj1.display();
 
