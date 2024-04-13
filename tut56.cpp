@@ -29,7 +29,8 @@ int main()
     DerivedClass obj_derived;
 
     // To overcome the default behaviour of base_class_pointer(i.e no matter it will run its own functions and members)
-    // virtual functions is introduced, just add virtual to the base class member functions prefix and it will allow the pointer to run the function of the derived class.
+    // virtual functions is introduced, just add virtual to the base class member functions prefix and it will allow the pointer to run the function of the derived class also.
+    // It is a good example of runtime polymorphism.
     base_class_pointer = &obj_derived;
     base_class_pointer->display();
 
