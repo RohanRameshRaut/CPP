@@ -19,7 +19,7 @@ class employee{
                 cin>>p[i];
             cout<<"the *p is: "<<*p<<endl; // (*) is a dereferencing operator(value at operator). will show you the value at given location.
             cout<<"the &p is: "<<&p<<endl; // (&) is a address of operator. will show you the address, of that value, i.e total 1(integer) *size of (2) = total bytes(2) address in heap.
-            cout<<"the p is: "<<p<<endl; // will show you the address of n integers passed by [size], as it is alredy hold the adderess of the p = int[size].
+            cout<<"the p is: "<<p[i]<<endl; // will show you the address of n integers passed by [size], as it is alredy hold the adderess of the p = int[size].
             }
         }
         void displayData(){
