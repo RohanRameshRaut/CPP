@@ -18,6 +18,7 @@ int main()
 {
     string st = "Harry bhai";
     string st2;
+    char s1[50];
     // Opening files using constructor and writing it
     ofstream out("sample60.txt"); // (write operation), ofstream is a class predefined in fstream.h file.(out is an object of ofstream class, sample60.txt is file_name passed as argument.)
     out << st; // will write "Harry bhai" in sample60.txt
