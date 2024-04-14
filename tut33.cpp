@@ -7,7 +7,6 @@ class employee{
     int* p;
     public:
         employee(){
-
             cout<<"Enter the size: "<<endl;
             cin>>size;
             p = new int [size]; // or int *p = int[100] memory will be allocated for 100 integers i.e 2 X 100 = 200bytes
