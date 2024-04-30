@@ -6,7 +6,7 @@ class MyMatrix
 {
     int m, n, i, j, tmtx[100][100], imtx[100][100];
     int **ptr;
-    int **ptr = new int[]
+    // int **ptr = new int[];
 
 public:
     void getData()
