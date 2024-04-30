@@ -57,7 +57,6 @@ public:
 class Derived : public Base2, public Base1
 { // This order matters for constructor invokeing. ex: Base2-->Base1-->Derived(constructors)
     int derived1, derived2;
-
 public:
     Derived(int a, int b, int c, int d) : Base1(a), Base2(b)
     { // Not this.
